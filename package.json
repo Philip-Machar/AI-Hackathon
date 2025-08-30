@@ -19,6 +19,7 @@
     "africastalking": "^0.7.3",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "is-even": "^1.0.0",
     "ngrok": "^5.0.0-beta.2"
   },
   "devDependencies": {

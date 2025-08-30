@@ -9,13 +9,12 @@ const { isUnexpected } = require("@azure-rest/ai-inference");
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-//initialize Africa's Talking
+//initialize Africa Talking
 const AT = africastalking({
     apiKey: process.env.AFRICASTALKING_API_KEY,
     username: process.env.AFRICASTALKING_USERNAME
 });
 
-//AI Client setup(Github Marketplace Open AI)
 const endpoint = "https://models.github.ai/inference";
 const model = "openai/gpt-4.1";
 const token = process.env.GITHUB_TOKEN;
